@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9BC484F0-0C3F-4206-98B0-71C0442DDD6A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Railway_express</RootNamespace>
+    <AssemblyName>Railway express</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\Desktop\DSE\dll\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\..\Desktop\DSE\dll\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="SMDLogic">
+      <HintPath>..\..\..\..\Desktop\DSE\dll\SMDLogic.dll</HintPath>
+    </Reference>
+    <Reference Include="SMDValidation">
+      <HintPath>..\..\..\..\Desktop\DSE\dll\SMDValidation.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployee.Designer.cs">
+      <DependentUpon>frmEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminAddTrain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminAddTrain.Designer.cs">
+      <DependentUpon>frmAdminAddTrain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployeeLeaves.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployeeLeaves.Designer.cs">
+      <DependentUpon>frmEmployeeLeaves.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserParsel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserParsel.Designer.cs">
+      <DependentUpon>frmUserParsel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserCanteen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserCanteen.Designer.cs">
+      <DependentUpon>frmUserCanteen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserResourt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserResourt.Designer.cs">
+      <DependentUpon>frmUserResourt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUser.Designer.cs">
+      <DependentUpon>frmUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdmin.Designer.cs">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminItemRefill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminItemRefill.Designer.cs">
+      <DependentUpon>frmAdminItemRefill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminResourtAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminResourtAdd.Designer.cs">
+      <DependentUpon>frmAdminResourtAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminResAddItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminResAddItem.Designer.cs">
+      <DependentUpon>frmAdminResAddItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminResourt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminResourt.Designer.cs">
+      <DependentUpon>frmAdminResourt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminResturent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminResturent.Designer.cs">
+      <DependentUpon>frmAdminResturent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminStation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminStation.Designer.cs">
+      <DependentUpon>frmAdminStation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminLine.Designer.cs">
+      <DependentUpon>frmAdminLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminTrain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminTrain.Designer.cs">
+      <DependentUpon>frmAdminTrain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminDash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminDash.Designer.cs">
+      <DependentUpon>frmAdminDash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmEmployee.resx">
+      <DependentUpon>frmEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminAddTrain.resx">
+      <DependentUpon>frmAdminAddTrain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployeeLeaves.resx">
+      <DependentUpon>frmEmployeeLeaves.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserParsel.resx">
+      <DependentUpon>frmUserParsel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserCanteen.resx">
+      <DependentUpon>frmUserCanteen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserResourt.resx">
+      <DependentUpon>frmUserResourt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUser.resx">
+      <DependentUpon>frmUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdmin.resx">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminItemRefill.resx">
+      <DependentUpon>frmAdminItemRefill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminResourtAdd.resx">
+      <DependentUpon>frmAdminResourtAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminResAddItem.resx">
+      <DependentUpon>frmAdminResAddItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminResourt.resx">
+      <DependentUpon>frmAdminResourt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminResturent.resx">
+      <DependentUpon>frmAdminResturent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminStation.resx">
+      <DependentUpon>frmAdminStation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminLine.resx">
+      <DependentUpon>frmAdminLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminTrain.resx">
+      <DependentUpon>frmAdminTrain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminDash.resx">
+      <DependentUpon>frmAdminDash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
