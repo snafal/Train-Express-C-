@@ -38,5 +38,10 @@ namespace Railway_express
         {
             SMDChildFormOpen.OpenWithActiveForm(new frmAdminAddTrain(), pnlChange, Color.FromArgb(26, 29, 33));
         }
+
+        private void btnTrainTicket_Click(object sender, EventArgs e)
+        {
+            SMDChildFormOpen.OpenWithActiveForm(new frmAdminTrainTicket(), pnlChange, Color.FromArgb(26, 29, 33));
+        }
     }
 }

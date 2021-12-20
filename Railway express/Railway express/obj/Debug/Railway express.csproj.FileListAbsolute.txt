@@ -70,8 +70,6 @@ C:\Users\lahir\OneDrive\Documents\GitHub\C--project\Railway express\Railway expr
 C:\Users\lahir\OneDrive\Documents\GitHub\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmUser.resources
 C:\Users\lahir\OneDrive\Documents\GitHub\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmAdmin.resources
 C:\Users\lahir\OneDrive\Documents\GitHub\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmAdminItemRefill.resources
-C:\Users\lahir\OneDrive\Documents\GitHub\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmAdminResourtAdd.resources
-C:\Users\lahir\OneDrive\Documents\GitHub\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmAdminResAddItem.resources
 C:\Users\lahir\OneDrive\Documents\GitHub\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmAdminResourt.resources
 C:\Users\lahir\OneDrive\Documents\GitHub\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmAdminResturent.resources
 C:\Users\lahir\OneDrive\Documents\GitHub\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmAdminStation.resources
@@ -84,3 +82,41 @@ C:\Users\lahir\OneDrive\Documents\GitHub\C--project\Railway express\Railway expr
 C:\Users\lahir\OneDrive\Documents\GitHub\C--project\Railway express\Railway express\obj\Debug\Railway express.csproj.CoreCompileInputs.cache
 C:\Users\lahir\OneDrive\Documents\GitHub\C--project\Railway express\Railway express\obj\Debug\Railway express.exe
 C:\Users\lahir\OneDrive\Documents\GitHub\C--project\Railway express\Railway express\obj\Debug\Railway express.pdb
+C:\Users\lahir\OneDrive\Documents\GitHub\C--project\Railway express\Railway express\bin\Debug\Railway express.exe.config
+C:\Users\lahir\OneDrive\Documents\GitHub\C--project\Railway express\Railway express\bin\Debug\Railway express.exe
+C:\Users\lahir\OneDrive\Documents\GitHub\C--project\Railway express\Railway express\bin\Debug\Railway express.pdb
+C:\Users\lahir\OneDrive\Documents\GitHub\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmUserTickets.resources
+C:\Users\lahir\OneDrive\Documents\GitHub\C--project\Railway express\Railway express\obj\Debug\Railway express.csproj.CopyComplete
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\bin\Debug\Railway express.exe.config
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\bin\Debug\Railway express.exe
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\bin\Debug\Railway express.pdb
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway express.csprojAssemblyReference.cache
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmEmployee.resources
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmAdminAddTrain.resources
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmEmployeeLeaves.resources
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmUserParsel.resources
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmUserCanteen.resources
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmUserResourt.resources
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmUser.resources
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmAdmin.resources
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmAdminItemRefill.resources
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmAdminResourt.resources
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmAdminResturent.resources
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmAdminStation.resources
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmAdminLine.resources
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmAdminTrain.resources
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmAdminDash.resources
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmLogin.resources
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmUserTickets.resources
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway_express.Properties.Resources.resources
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway express.csproj.GenerateResource.cache
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway express.csproj.CoreCompileInputs.cache
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway express.csproj.CopyComplete
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway express.exe
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway express.pdb
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\bin\Debug\SMDMessageBox.dll
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\bin\Debug\Guna.UI2.dll
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmAdminTrainTicket.resources
+E:\Sachintha\Lahiru C# Project\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmsignup.resources
+C:\Users\lahir\OneDrive\Documents\GitHub\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmsignup.resources
+C:\Users\lahir\OneDrive\Documents\GitHub\C--project\Railway express\Railway express\obj\Debug\Railway_express.frmAdminTrainTicket.resources

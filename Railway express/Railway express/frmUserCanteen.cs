@@ -18,6 +18,14 @@ namespace Railway_express
             InitializeComponent();
         }
 
+        private void dataShow()
+        {
+            DataTable dt = new DataTable();
+            dt = DBmanager.getdata("SELECT * FROM CANTEEN");
+            dgvResourt.AutoGenerateColumns = false;
+            dgvResourt.DataSource = dt;
+        }
+
         private void frmUserTickets_Load(object sender, EventArgs e)
         {
 
@@ -35,6 +43,10 @@ namespace Railway_express
             } else if (string.IsNullOrEmpty(txtItemCount.Text))
             {
                 Validation.texBoxValidate(false, txtItemCount, lblIteamCount, "frmAdminLine");
+            }
+            else
+            {
+
             }
                     
         }

@@ -31,13 +31,13 @@
             this.components = new System.ComponentModel.Container();
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
             this.gunaPanel1 = new Guna.UI.WinForms.GunaPanel();
+            this.btnCanteen = new Guna.UI.WinForms.GunaButton();
             this.btnResourt = new Guna.UI.WinForms.GunaButton();
             this.btnParsel = new Guna.UI.WinForms.GunaButton();
             this.btnTickets = new Guna.UI.WinForms.GunaButton();
             this.btnDashboard = new Guna.UI.WinForms.GunaButton();
             this.gunaControlBox1 = new Guna.UI.WinForms.GunaControlBox();
             this.pnlChangeWindow = new Guna.UI.WinForms.GunaPanel();
-            this.btnCanteen = new Guna.UI.WinForms.GunaButton();
             this.gunaPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,6 +57,32 @@
             this.gunaPanel1.Name = "gunaPanel1";
             this.gunaPanel1.Size = new System.Drawing.Size(391, 861);
             this.gunaPanel1.TabIndex = 0;
+            // 
+            // btnCanteen
+            // 
+            this.btnCanteen.AnimationHoverSpeed = 0.07F;
+            this.btnCanteen.AnimationSpeed = 0.03F;
+            this.btnCanteen.BackColor = System.Drawing.Color.Transparent;
+            this.btnCanteen.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(110)))), ((int)(((byte)(138)))));
+            this.btnCanteen.BorderColor = System.Drawing.Color.Black;
+            this.btnCanteen.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnCanteen.FocusedColor = System.Drawing.Color.Empty;
+            this.btnCanteen.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnCanteen.ForeColor = System.Drawing.Color.White;
+            this.btnCanteen.Image = null;
+            this.btnCanteen.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnCanteen.Location = new System.Drawing.Point(89, 655);
+            this.btnCanteen.Name = "btnCanteen";
+            this.btnCanteen.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(61)))), ((int)(((byte)(77)))));
+            this.btnCanteen.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnCanteen.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnCanteen.OnHoverImage = null;
+            this.btnCanteen.OnPressedColor = System.Drawing.Color.Black;
+            this.btnCanteen.Radius = 20;
+            this.btnCanteen.Size = new System.Drawing.Size(216, 51);
+            this.btnCanteen.TabIndex = 7;
+            this.btnCanteen.Text = "Canteen";
+            this.btnCanteen.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnResourt
             // 
@@ -137,7 +163,7 @@
             this.btnTickets.TabIndex = 5;
             this.btnTickets.Text = "Tickets";
             this.btnTickets.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btnTickets.Click += new System.EventHandler(this.btnTicket_Click);
+            this.btnTickets.Click += new System.EventHandler(this.btnTickets_Click);
             // 
             // btnDashboard
             // 
@@ -191,32 +217,6 @@
             this.pnlChangeWindow.Name = "pnlChangeWindow";
             this.pnlChangeWindow.Size = new System.Drawing.Size(932, 806);
             this.pnlChangeWindow.TabIndex = 2;
-            // 
-            // btnCanteen
-            // 
-            this.btnCanteen.AnimationHoverSpeed = 0.07F;
-            this.btnCanteen.AnimationSpeed = 0.03F;
-            this.btnCanteen.BackColor = System.Drawing.Color.Transparent;
-            this.btnCanteen.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(110)))), ((int)(((byte)(138)))));
-            this.btnCanteen.BorderColor = System.Drawing.Color.Black;
-            this.btnCanteen.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnCanteen.FocusedColor = System.Drawing.Color.Empty;
-            this.btnCanteen.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnCanteen.ForeColor = System.Drawing.Color.White;
-            this.btnCanteen.Image = null;
-            this.btnCanteen.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnCanteen.Location = new System.Drawing.Point(89, 655);
-            this.btnCanteen.Name = "btnCanteen";
-            this.btnCanteen.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(61)))), ((int)(((byte)(77)))));
-            this.btnCanteen.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnCanteen.OnHoverForeColor = System.Drawing.Color.White;
-            this.btnCanteen.OnHoverImage = null;
-            this.btnCanteen.OnPressedColor = System.Drawing.Color.Black;
-            this.btnCanteen.Radius = 20;
-            this.btnCanteen.Size = new System.Drawing.Size(216, 51);
-            this.btnCanteen.TabIndex = 7;
-            this.btnCanteen.Text = "Canteen";
-            this.btnCanteen.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // frmUser
             // 

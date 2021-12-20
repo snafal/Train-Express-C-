@@ -39,14 +39,22 @@
     <Reference Include="Guna.UI">
       <HintPath>..\..\..\..\Desktop\DSE\dll\Guna.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\..\C# PROJECTS\Library System\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\Guna.UI2.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="SMDLogic">
       <HintPath>..\..\..\..\Desktop\DSE\dll\SMDLogic.dll</HintPath>
+    </Reference>
+    <Reference Include="SMDMessageBox, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\ud\Desktop\DSE\dll\SMDMessageBox.dll</HintPath>
     </Reference>
     <Reference Include="SMDValidation">
       <HintPath>..\..\..\..\Desktop\DSE\dll\SMDValidation.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
@@ -60,6 +68,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DBmanager.cs" />
+    <Compile Include="frmAdminResturent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminResturent.Designer.cs">
+      <DependentUpon>frmAdminResturent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminStation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminStation.Designer.cs">
+      <DependentUpon>frmAdminStation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmsignup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmsignup.Designer.cs">
+      <DependentUpon>frmsignup.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmEmployee.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +104,12 @@
     </Compile>
     <Compile Include="frmEmployeeLeaves.Designer.cs">
       <DependentUpon>frmEmployeeLeaves.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserTickets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserTickets.Designer.cs">
+      <DependentUpon>frmUserTickets.cs</DependentUpon>
     </Compile>
     <Compile Include="frmUserParsel.cs">
       <SubType>Form</SubType>
@@ -114,35 +147,17 @@
     <Compile Include="frmAdminItemRefill.Designer.cs">
       <DependentUpon>frmAdminItemRefill.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmAdminResourtAdd.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmAdminResourtAdd.Designer.cs">
-      <DependentUpon>frmAdminResourtAdd.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmAdminResAddItem.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmAdminResAddItem.Designer.cs">
-      <DependentUpon>frmAdminResAddItem.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmAdminResourt.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmAdminResourt.Designer.cs">
       <DependentUpon>frmAdminResourt.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmAdminResturent.cs">
+    <Compile Include="frmAdminTrainTicket.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAdminResturent.Designer.cs">
-      <DependentUpon>frmAdminResturent.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmAdminStation.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmAdminStation.Designer.cs">
-      <DependentUpon>frmAdminStation.cs</DependentUpon>
+    <Compile Include="frmAdminTrainTicket.Designer.cs">
+      <DependentUpon>frmAdminTrainTicket.cs</DependentUpon>
     </Compile>
     <Compile Include="frmAdminLine.cs">
       <SubType>Form</SubType>
@@ -170,6 +185,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAdminResturent.resx">
+      <DependentUpon>frmAdminResturent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminStation.resx">
+      <DependentUpon>frmAdminStation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmsignup.resx">
+      <DependentUpon>frmsignup.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmEmployee.resx">
       <DependentUpon>frmEmployee.cs</DependentUpon>
     </EmbeddedResource>
@@ -178,6 +202,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmEmployeeLeaves.resx">
       <DependentUpon>frmEmployeeLeaves.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserTickets.resx">
+      <DependentUpon>frmUserTickets.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmUserParsel.resx">
       <DependentUpon>frmUserParsel.cs</DependentUpon>
@@ -197,20 +224,11 @@
     <EmbeddedResource Include="frmAdminItemRefill.resx">
       <DependentUpon>frmAdminItemRefill.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmAdminResourtAdd.resx">
-      <DependentUpon>frmAdminResourtAdd.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmAdminResAddItem.resx">
-      <DependentUpon>frmAdminResAddItem.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmAdminResourt.resx">
       <DependentUpon>frmAdminResourt.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmAdminResturent.resx">
-      <DependentUpon>frmAdminResturent.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmAdminStation.resx">
-      <DependentUpon>frmAdminStation.cs</DependentUpon>
+    <EmbeddedResource Include="frmAdminTrainTicket.resx">
+      <DependentUpon>frmAdminTrainTicket.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmAdminLine.resx">
       <DependentUpon>frmAdminLine.cs</DependentUpon>

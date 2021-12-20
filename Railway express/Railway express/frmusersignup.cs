@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Railway_express
 {
-    public partial class frmAdminDash : Form
+    public partial class frmusersignup : Form
     {
-        public frmAdminDash()
+        public frmusersignup()
         {
             InitializeComponent();
-        }
-
-        private void frmAdminDash_Load(object sender, EventArgs e)
-        {
-            prgrsTrainCount.Value = 500;
         }
     }
 }

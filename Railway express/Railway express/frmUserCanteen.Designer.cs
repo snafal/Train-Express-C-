@@ -40,12 +40,13 @@
             this.txtItemCount = new Guna.UI.WinForms.GunaTextBox();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.lblIteamCount = new Guna.UI.WinForms.GunaLabel();
-            this.gunaDataGridView1 = new Guna.UI.WinForms.GunaDataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaDataGridView1)).BeginInit();
+            this.dgvResourt = new Guna.UI.WinForms.GunaDataGridView();
+            this.iteam_Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.iteam_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.avalable_count = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.iteam_price = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gunaTextBox1 = new Guna.UI.WinForms.GunaTextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvResourt)).BeginInit();
             this.SuspendLayout();
             // 
             // gunaElipse1
@@ -57,10 +58,9 @@
             this.lblItemError.AutoSize = true;
             this.lblItemError.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lblItemError.ForeColor = System.Drawing.Color.Red;
-            this.lblItemError.Location = new System.Drawing.Point(52, 256);
-            this.lblItemError.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblItemError.Location = new System.Drawing.Point(71, 354);
             this.lblItemError.Name = "lblItemError";
-            this.lblItemError.Size = new System.Drawing.Size(0, 15);
+            this.lblItemError.Size = new System.Drawing.Size(0, 20);
             this.lblItemError.TabIndex = 5;
             // 
             // gunaLabel4
@@ -68,10 +68,9 @@
             this.gunaLabel4.AutoSize = true;
             this.gunaLabel4.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.gunaLabel4.ForeColor = System.Drawing.SystemColors.Control;
-            this.gunaLabel4.Location = new System.Drawing.Point(49, 188);
-            this.gunaLabel4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.gunaLabel4.Location = new System.Drawing.Point(67, 270);
             this.gunaLabel4.Name = "gunaLabel4";
-            this.gunaLabel4.Size = new System.Drawing.Size(39, 20);
+            this.gunaLabel4.Size = new System.Drawing.Size(49, 25);
             this.gunaLabel4.TabIndex = 4;
             this.gunaLabel4.Text = "Item";
             // 
@@ -88,8 +87,8 @@
             this.btnSave.ForeColor = System.Drawing.Color.White;
             this.btnSave.Image = null;
             this.btnSave.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnSave.Location = new System.Drawing.Point(156, 443);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSave.Location = new System.Drawing.Point(208, 545);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSave.Name = "btnSave";
             this.btnSave.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(61)))), ((int)(((byte)(77)))));
             this.btnSave.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -97,7 +96,7 @@
             this.btnSave.OnHoverImage = null;
             this.btnSave.OnPressedColor = System.Drawing.Color.Black;
             this.btnSave.Radius = 5;
-            this.btnSave.Size = new System.Drawing.Size(120, 42);
+            this.btnSave.Size = new System.Drawing.Size(160, 52);
             this.btnSave.TabIndex = 9;
             this.btnSave.Text = "Save";
             this.btnSave.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -114,12 +113,12 @@
             this.cmbItem.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cmbItem.ForeColor = System.Drawing.Color.Black;
             this.cmbItem.FormattingEnabled = true;
-            this.cmbItem.Location = new System.Drawing.Point(52, 218);
-            this.cmbItem.Margin = new System.Windows.Forms.Padding(2);
+            this.cmbItem.Location = new System.Drawing.Point(71, 307);
+            this.cmbItem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbItem.Name = "cmbItem";
             this.cmbItem.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.cmbItem.OnHoverItemForeColor = System.Drawing.Color.White;
-            this.cmbItem.Size = new System.Drawing.Size(224, 26);
+            this.cmbItem.Size = new System.Drawing.Size(297, 31);
             this.cmbItem.TabIndex = 8;
             // 
             // txtItemCount
@@ -132,12 +131,12 @@
             this.txtItemCount.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.txtItemCount.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtItemCount.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtItemCount.Location = new System.Drawing.Point(52, 327);
-            this.txtItemCount.Margin = new System.Windows.Forms.Padding(2);
+            this.txtItemCount.Location = new System.Drawing.Point(71, 441);
+            this.txtItemCount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtItemCount.Name = "txtItemCount";
             this.txtItemCount.PasswordChar = '\0';
             this.txtItemCount.SelectedText = "";
-            this.txtItemCount.Size = new System.Drawing.Size(224, 26);
+            this.txtItemCount.Size = new System.Drawing.Size(299, 37);
             this.txtItemCount.TabIndex = 3;
             // 
             // gunaLabel1
@@ -145,10 +144,9 @@
             this.gunaLabel1.AutoSize = true;
             this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.gunaLabel1.ForeColor = System.Drawing.SystemColors.Control;
-            this.gunaLabel1.Location = new System.Drawing.Point(49, 296);
-            this.gunaLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.gunaLabel1.Location = new System.Drawing.Point(67, 403);
             this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(82, 20);
+            this.gunaLabel1.Size = new System.Drawing.Size(105, 25);
             this.gunaLabel1.TabIndex = 4;
             this.gunaLabel1.Text = "Item Count";
             // 
@@ -157,108 +155,136 @@
             this.lblIteamCount.AutoSize = true;
             this.lblIteamCount.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lblIteamCount.ForeColor = System.Drawing.Color.Red;
-            this.lblIteamCount.Location = new System.Drawing.Point(52, 364);
-            this.lblIteamCount.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblIteamCount.Location = new System.Drawing.Point(71, 487);
             this.lblIteamCount.Name = "lblIteamCount";
-            this.lblIteamCount.Size = new System.Drawing.Size(0, 15);
+            this.lblIteamCount.Size = new System.Drawing.Size(0, 20);
             this.lblIteamCount.TabIndex = 5;
             // 
-            // gunaDataGridView1
+            // dgvResourt
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.gunaDataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.gunaDataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.gunaDataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(29)))), ((int)(((byte)(33)))));
-            this.gunaDataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.gunaDataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.gunaDataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dgvResourt.AllowUserToAddRows = false;
+            this.dgvResourt.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(29)))), ((int)(((byte)(33)))));
+            this.dgvResourt.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvResourt.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvResourt.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(29)))), ((int)(((byte)(33)))));
+            this.dgvResourt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvResourt.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dgvResourt.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(110)))), ((int)(((byte)(138)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(110)))), ((int)(((byte)(138)))));
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.gunaDataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.gunaDataGridView1.ColumnHeadersHeight = 60;
-            this.gunaDataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4});
+            this.dgvResourt.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvResourt.ColumnHeadersHeight = 60;
+            this.dgvResourt.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.iteam_Id,
+            this.iteam_name,
+            this.avalable_count,
+            this.iteam_price});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(29)))), ((int)(((byte)(33)))));
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(110)))), ((int)(((byte)(138)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(29)))), ((int)(((byte)(33)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(110)))), ((int)(((byte)(138)))));
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.gunaDataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
-            this.gunaDataGridView1.EnableHeadersVisualStyles = false;
-            this.gunaDataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(29)))), ((int)(((byte)(33)))));
-            this.gunaDataGridView1.Location = new System.Drawing.Point(350, 218);
-            this.gunaDataGridView1.Margin = new System.Windows.Forms.Padding(2);
-            this.gunaDataGridView1.Name = "gunaDataGridView1";
-            this.gunaDataGridView1.RowHeadersVisible = false;
-            this.gunaDataGridView1.RowHeadersWidth = 51;
-            this.gunaDataGridView1.RowTemplate.Height = 24;
-            this.gunaDataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.gunaDataGridView1.Size = new System.Drawing.Size(566, 321);
-            this.gunaDataGridView1.TabIndex = 10;
-            this.gunaDataGridView1.Theme = Guna.UI.WinForms.GunaDataGridViewPresetThemes.Guna;
-            this.gunaDataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.gunaDataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.gunaDataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.gunaDataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.gunaDataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.gunaDataGridView1.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(29)))), ((int)(((byte)(33)))));
-            this.gunaDataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(29)))), ((int)(((byte)(33)))));
-            this.gunaDataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(110)))), ((int)(((byte)(138)))));
-            this.gunaDataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.gunaDataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.gunaDataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.gunaDataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.gunaDataGridView1.ThemeStyle.HeaderStyle.Height = 60;
-            this.gunaDataGridView1.ThemeStyle.ReadOnly = false;
-            this.gunaDataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.gunaDataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.gunaDataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.gunaDataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.gunaDataGridView1.ThemeStyle.RowsStyle.Height = 24;
-            this.gunaDataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.gunaDataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dgvResourt.DefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvResourt.EnableHeadersVisualStyles = false;
+            this.dgvResourt.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(29)))), ((int)(((byte)(33)))));
+            this.dgvResourt.Location = new System.Drawing.Point(456, 270);
+            this.dgvResourt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dgvResourt.Name = "dgvResourt";
+            this.dgvResourt.ReadOnly = true;
+            this.dgvResourt.RowHeadersVisible = false;
+            this.dgvResourt.RowHeadersWidth = 51;
+            this.dgvResourt.RowTemplate.Height = 24;
+            this.dgvResourt.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvResourt.Size = new System.Drawing.Size(777, 395);
+            this.dgvResourt.TabIndex = 25;
+            this.dgvResourt.Theme = Guna.UI.WinForms.GunaDataGridViewPresetThemes.Guna;
+            this.dgvResourt.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(29)))), ((int)(((byte)(33)))));
+            this.dgvResourt.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.dgvResourt.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.dgvResourt.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.dgvResourt.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.dgvResourt.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(29)))), ((int)(((byte)(33)))));
+            this.dgvResourt.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(29)))), ((int)(((byte)(33)))));
+            this.dgvResourt.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(110)))), ((int)(((byte)(138)))));
+            this.dgvResourt.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dgvResourt.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.dgvResourt.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.dgvResourt.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.dgvResourt.ThemeStyle.HeaderStyle.Height = 60;
+            this.dgvResourt.ThemeStyle.ReadOnly = true;
+            this.dgvResourt.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(29)))), ((int)(((byte)(33)))));
+            this.dgvResourt.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dgvResourt.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.dgvResourt.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(110)))), ((int)(((byte)(138)))));
+            this.dgvResourt.ThemeStyle.RowsStyle.Height = 24;
+            this.dgvResourt.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(29)))), ((int)(((byte)(33)))));
+            this.dgvResourt.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(110)))), ((int)(((byte)(138)))));
             // 
-            // Column1
+            // iteam_Id
             // 
-            this.Column1.HeaderText = "Item Name";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
+            this.iteam_Id.DataPropertyName = "iteam_Id";
+            this.iteam_Id.HeaderText = "Item ID";
+            this.iteam_Id.MinimumWidth = 6;
+            this.iteam_Id.Name = "iteam_Id";
+            this.iteam_Id.ReadOnly = true;
             // 
-            // Column2
+            // iteam_name
             // 
-            this.Column2.HeaderText = "Item Price";
-            this.Column2.MinimumWidth = 6;
-            this.Column2.Name = "Column2";
+            this.iteam_name.DataPropertyName = "iteam_name";
+            this.iteam_name.HeaderText = "Item";
+            this.iteam_name.MinimumWidth = 6;
+            this.iteam_name.Name = "iteam_name";
+            this.iteam_name.ReadOnly = true;
             // 
-            // Column3
+            // avalable_count
             // 
-            this.Column3.HeaderText = "Avaailable Items";
-            this.Column3.MinimumWidth = 6;
-            this.Column3.Name = "Column3";
+            this.avalable_count.DataPropertyName = "avalable_count";
+            this.avalable_count.HeaderText = "Quantity";
+            this.avalable_count.MinimumWidth = 6;
+            this.avalable_count.Name = "avalable_count";
+            this.avalable_count.ReadOnly = true;
             // 
-            // Column4
+            // iteam_price
             // 
-            this.Column4.HeaderText = "Image";
-            this.Column4.MinimumWidth = 6;
-            this.Column4.Name = "Column4";
+            this.iteam_price.DataPropertyName = "iteam_price";
+            this.iteam_price.HeaderText = "Price";
+            this.iteam_price.MinimumWidth = 6;
+            this.iteam_price.Name = "iteam_price";
+            this.iteam_price.ReadOnly = true;
+            // 
+            // gunaTextBox1
+            // 
+            this.gunaTextBox1.BaseColor = System.Drawing.Color.White;
+            this.gunaTextBox1.BorderColor = System.Drawing.Color.Silver;
+            this.gunaTextBox1.BorderSize = 0;
+            this.gunaTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.gunaTextBox1.FocusedBaseColor = System.Drawing.Color.White;
+            this.gunaTextBox1.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaTextBox1.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.gunaTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaTextBox1.Location = new System.Drawing.Point(456, 192);
+            this.gunaTextBox1.Name = "gunaTextBox1";
+            this.gunaTextBox1.PasswordChar = '\0';
+            this.gunaTextBox1.SelectedText = "";
+            this.gunaTextBox1.Size = new System.Drawing.Size(357, 39);
+            this.gunaTextBox1.TabIndex = 24;
             // 
             // frmUserCanteen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(29)))), ((int)(((byte)(33)))));
-            this.ClientSize = new System.Drawing.Size(954, 640);
-            this.Controls.Add(this.gunaDataGridView1);
+            this.ClientSize = new System.Drawing.Size(1272, 788);
+            this.Controls.Add(this.dgvResourt);
+            this.Controls.Add(this.gunaTextBox1);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.cmbItem);
             this.Controls.Add(this.lblIteamCount);
@@ -267,11 +293,11 @@
             this.Controls.Add(this.gunaLabel4);
             this.Controls.Add(this.txtItemCount);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmUserCanteen";
             this.Text = "frmAdminDash";
             this.Load += new System.EventHandler(this.frmUserTickets_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.gunaDataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvResourt)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -287,10 +313,11 @@
         private Guna.UI.WinForms.GunaLabel lblIteamCount;
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
         private Guna.UI.WinForms.GunaTextBox txtItemCount;
-        private Guna.UI.WinForms.GunaDataGridView gunaDataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private Guna.UI.WinForms.GunaDataGridView dgvResourt;
+        private System.Windows.Forms.DataGridViewTextBoxColumn iteam_Id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn iteam_name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn avalable_count;
+        private System.Windows.Forms.DataGridViewTextBoxColumn iteam_price;
+        private Guna.UI.WinForms.GunaTextBox gunaTextBox1;
     }
 }
